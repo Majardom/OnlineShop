@@ -1,0 +1,14 @@
+.orderInfo {
+    background-color: #d1e1f9;
+    width: 60%;
+    margin: 1em auto;
+}
+#icon {
+    margin: 1em;
+    float: left;
+}
+
+.container {
+    display: inline-block; 
+    padding-left: 1em;
+}

@@ -1,0 +1,12 @@
+D:\Прога\Projects Visual Studio\OnlineShop\OnlineShop\DAL\bin\Debug\DAL.dll
+D:\Прога\Projects Visual Studio\OnlineShop\OnlineShop\DAL\bin\Debug\DAL.pdb
+D:\Прога\Projects Visual Studio\OnlineShop\OnlineShop\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Прога\Projects Visual Studio\OnlineShop\OnlineShop\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Прога\Projects Visual Studio\OnlineShop\OnlineShop\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Прога\Projects Visual Studio\OnlineShop\OnlineShop\DAL\obj\Debug\DAL.dll
+D:\Прога\Projects Visual Studio\OnlineShop\OnlineShop\DAL\obj\Debug\DAL.pdb
+D:\Прога\Projects Visual Studio\OnlineShop\OnlineShop\DAL\bin\Debug\DAL.dll.config
+D:\Прога\Projects Visual Studio\OnlineShop\OnlineShop\DAL\bin\Debug\EntityFramework.dll
+D:\Прога\Projects Visual Studio\OnlineShop\OnlineShop\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Прога\Projects Visual Studio\OnlineShop\OnlineShop\DAL\bin\Debug\EntityFramework.xml
+D:\Прога\Projects Visual Studio\OnlineShop\OnlineShop\DAL\bin\Debug\EntityFramework.SqlServer.xml
