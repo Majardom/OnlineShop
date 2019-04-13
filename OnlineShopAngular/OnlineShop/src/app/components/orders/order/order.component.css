@@ -3,12 +3,25 @@
     width: 60%;
     margin: 1em auto;
 }
-#icon {
-    margin: 1em;
-    float: left;
+
+.content {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.container {
-    display: inline-block; 
-    padding-left: 1em;
+.container{
+    padding: 1em;
+    flex-grow: 1;
+}
+.container span {
+    font-weight: bold;
+}
+ #date {
+     text-align: right;
+ }
+ #icon {
+    margin: 1em;
+    float: left;
 }

@@ -12,11 +12,11 @@ import { Category } from 'src/app/models/orders/category';
 export class OrderComponent implements OnInit {
 
   @Input()
-  order : Order;
+  order: Order;
   @Input()
-  stage : Stage;
+  stage: Stage;
   @Input()
-  product : Product;
+  product: Product;
   @Input()
   category: Category;
 
@@ -25,8 +25,14 @@ export class OrderComponent implements OnInit {
   ngOnInit() {
   }
 
-  getOrderPrice(): number{
-      return +(this.order.Amount * this.order.ProductPrice).toFixed(2);
+  getOrderPrice(): number {
+    return +(this.order.Amount * this.order.ProductPrice).toFixed(2);
+  }
+
+  getDate(): string {
+    let date = this.order.DateOfCreation.split('T');
+    let result = `${date[0]} ${date[1].split('.')[0]}`
+    return result;
   }
 
 }

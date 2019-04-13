@@ -1,23 +1,25 @@
 <mat-card class="orderInfo">
   <mat-card-content>
-    <img id="icon" mat-card-image [src]="product.ImgPath" alt="ProductImg" style="width:100px;height:100px;">
+
+    <mat-card-subtitle id="date"><span>Дата заказа: </span>{{getDate()}}</mat-card-subtitle>
 
     <mat-card-content class="content">
-      <div class="content container">
-        <p>Количество: {{order.Amount}}</p>
-        <p>Цена: {{order.ProductPrice}}</p>
-        <p>Сума: {{getOrderPrice()}}</p>
+      <div class="container">
+        <img id="icon" mat-card-image [src]="product.ImgPath" alt="ProductImg" style="width:120px;height:120px;">
       </div>
-      <div class="content container">
-        <p>Дата заказа: {{order.DateOfCreation}}</p>
+      <div class="container">
+        <p><span>Количество: </span>{{order.Amount}}</p>
+        <p><span>Цена: </span>{{order.ProductPrice}}</p>
+        <p><span>Сума: </span>{{getOrderPrice()}}</p>
       </div>
-      <div class="content container">
-        <p>Товар: {{product.Caption}}</p>
-        <p>Категория: {{category.Caption}}</p>
+      <div class="container">
+        <p><span>Товар: </span>{{product.Caption}}</p>
+        <p><span>Категория: </span>{{category.Caption}}</p>
       </div>
+
     </mat-card-content>
     <mat-card-footer>
-      <app-stages-bar [activeStage] = "stage"></app-stages-bar>
+      <app-stages-bar [activeStage]="stage"></app-stages-bar>
     </mat-card-footer>
   </mat-card-content>
 </mat-card>
